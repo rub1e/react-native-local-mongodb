@@ -1,6 +1,6 @@
 {
   "name": "react-native-local-mongodb",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "author": "Antonio Presto <antoniopresto@gmail.com>",
   "contributors": [
     "Antonio Presto"
@@ -43,7 +43,8 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "react-native": "<rootDir>/config/jest/reactNativeMock.js"
+      "react-native": "<rootDir>/config/jest/reactNativeMock.js",
+      ".*async-storage": "<rootDir>/config/jest/@react-native-community/async-storage.js"
     },
     "testEnvironment": "node"
   },
